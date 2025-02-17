@@ -4,11 +4,11 @@ Adiciona um cronômetro para contagem regressiva no OBS.
 
 ## Configuração
 
-No OBS, adicione uma fonte `Navegador` na cena desejada, com a URL `https://tavaresgs.github.io/timer/`.
+No OBS, adicione uma fonte `Navegador` na cena desejada, com a URL `https://tavaresgs.github.io/obs-timer/`.
 
-Por padrão, a contagem será feita em relação ao próximo quarto de hora (15, 30, 45 minutos ou hora completa). Caso deseje informar alguma hora específica, o mesmo pode ser feito adicionado `?t=hh:mm` ao final da URL, onde `hh:mm` deve ser substituido pela hora desejada. Exemplo: `https://tavaresgs.github.io/timer/?t=17:00`.
+Por padrão, a contagem será feita em relação ao próximo quarto de hora (15, 30, 45 minutos ou hora completa). Caso deseje informar alguma hora específica, o mesmo pode ser feito adicionado `?t=hh:mm` ao final da URL, onde `hh:mm` deve ser substituido pela hora desejada. Exemplo: `https://tavaresgs.github.io/obs-timer/?t=17:00`.
 
-Caso deseje adicionar uma mensagem ao final da contagem regressiva, a mesma pode ser adicionada como com o parêmetro `msg=Mensagem` na URL. Exemplo: `https://tavaresgs.github.io/timer/?t=17:00&msg=Iniciando em instantes`.
+Caso deseje adicionar uma mensagem ao final da contagem regressiva, a mesma pode ser adicionada como com o parêmetro `msg=Mensagem` na URL. Exemplo: `https://tavaresgs.github.io/obs-timer/?t=17:00&msg=Iniciando em instantes`.
 
 ## Personalização
 
